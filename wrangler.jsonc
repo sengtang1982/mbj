@@ -1,21 +1,19 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "https://developers.cloudflare.com/workers-configuration-schema.json",
   "name": "muddy-bread-e13f",
-  "compatibility_date": "2026-05-08",
+  "compatibility_date": "2025-05-08",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": ".",
-    "exclude": [
-      ".git/**",
-      "node_modules/**",
-      "*.log",
-      ".gitignore",
-      "*.md"
-    ]
+    "directory": "."
   },
-  "compatibility_flags": [
-    "nodejs_compat"
+  "exclude": [
+    ".git/**",
+    "node_modules/**",
+    ".gitignore",
+    "README.md",
+    "*.build.txt",
+    "*.log"
   ]
 }
