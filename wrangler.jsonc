@@ -2,18 +2,9 @@
   "$schema": "https://developers.cloudflare.com/workers-configuration-schema.json",
   "name": "muddy-bread-e13f",
   "compatibility_date": "2025-05-08",
-  "observability": {
-    "enabled": true
-  },
+  "observability": { "enabled": true },
   "assets": {
-    "directory": "."
-  },
-  "exclude": [
-    ".git/**",
-    "node_modules/**",
-    ".gitignore",
-    "README.md",
-    "*.build.txt",
-    "*.log"
-  ]
+    "directory": ".",
+    "gitignore": true
+  }
 }
