@@ -1,151 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>PUPYOO - 30mg Ergothioneine Capsules</title>
-    <meta name="description" content="PUPYOO - 30mg Ergothioneine Capsules">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta name="description" content="PUPYOO - 30mg Ergothioneine Capsules" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header Navigation -->
     <header class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="PUPYOO Logo">
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav-links">
-                <a href="index.html">POPYOO</a>
-                <a href="products.html">PUPYOO PRODUCTS</a>
-                <a href="stores.html">STORE LOCATIONS</a>
-                <a href="contact.html">CONTACT</a>
-            </nav>
+      <div class="container nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="PUPYOO Logo" />
+          </a>
         </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">POPYOO</a>
+          <a href="products.html">PUPYOO PRODUCTS</a>
+          <a href="stores.html">STORE LOCATIONS</a>
+          <a href="contact.html">CONTACT</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section class="product-details section" style="padding-top: calc(var(--nav-height) + 4rem);">
-            <div class="container">
-                <div class="product-layout">
-                    <!-- Left: Image Gallery -->
-                    <div class="product-gallery reveal-up">
-                        <div class="main-image-container">
-                            <img id="mainImage" src="images/products/30mg Ergothioneine Capsules/main.jpg" alt="30mg Ergothioneine Capsules">
-                        </div>
-                        <div class="thumbnail-container">
-                            <div class="thumbnail active" onclick="changeImage(this, 'images/products/30mg Ergothioneine Capsules/main.jpg')">
-                                <img src="images/products/30mg Ergothioneine Capsules/main.jpg" alt="Thumbnail">
-                            </div>
-                            <div class="thumbnail" onclick="changeImage(this, 'images/products/30mg Ergothioneine Capsules/main-1.jpg')">
-                                <img src="images/products/30mg Ergothioneine Capsules/main-1.jpg" alt="Thumbnail">
-                            </div>
-                            <div class="thumbnail" onclick="changeImage(this, 'images/products/30mg Ergothioneine Capsules/main-2.jpg')">
-                                <img src="images/products/30mg Ergothioneine Capsules/main-2.jpg" alt="Thumbnail">
-                            </div>
-                            <div class="thumbnail" onclick="changeImage(this, 'images/products/30mg Ergothioneine Capsules/main-3.jpg')">
-                                <img src="images/products/30mg Ergothioneine Capsules/main-3.jpg" alt="Thumbnail">
-                            </div>
-                            <div class="thumbnail" onclick="changeImage(this, 'images/products/30mg Ergothioneine Capsules/main-4.jpg')">
-                                <img src="images/products/30mg Ergothioneine Capsules/main-4.jpg" alt="Thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Right: Product Info -->
-                    <div class="product-info reveal-up" style="transition-delay: 0.1s;">
-                        <h1 class="product-detail-title">30mg Ergothioneine Capsules</h1>
-                        <p class="product-detail-price">33 NZD</p>
-                        
-                        <div class="product-detail-desc">
-                            <p>30mg Ergothioneine Capsules</p>
-                            <ul>
-                                <li>High purity astaxanthin</li>
-                                <li>Reduces free radicals</li>
-                                <li>Supports wellbeing and circulation</li>
-                            </ul>
-                        </div>
-                        
-                        <button class="btn-buy">ADD TO CART</button>
-                    </div>
+      <section
+        class="product-details section"
+        style="padding-top: calc(var(--nav-height) + 4rem)"
+      >
+        <div class="container">
+          <div class="product-layout">
+            <!-- Left: Image Gallery -->
+            <div class="product-gallery reveal-up">
+              <div class="main-image-container">
+                <img
+                  id="mainImage"
+                  src="images/products/30mg Ergothioneine Capsules/main.jpg"
+                  alt="30mg Ergothioneine Capsules"
+                />
+              </div>
+              <div class="thumbnail-container">
+                <div
+                  class="thumbnail active"
+                  onclick="
+                    changeImage(
+                      this,
+                      'images/products/30mg Ergothioneine Capsules/main.jpg',
+                    )
+                  "
+                >
+                  <img
+                    src="images/products/30mg Ergothioneine Capsules/main.jpg"
+                    alt="Thumbnail"
+                  />
                 </div>
+                <div
+                  class="thumbnail"
+                  onclick="
+                    changeImage(
+                      this,
+                      'images/products/30mg Ergothioneine Capsules/main-1.jpg',
+                    )
+                  "
+                >
+                  <img
+                    src="images/products/30mg Ergothioneine Capsules/main-1.jpg"
+                    alt="Thumbnail"
+                  />
+                </div>
+                <div
+                  class="thumbnail"
+                  onclick="
+                    changeImage(
+                      this,
+                      'images/products/30mg Ergothioneine Capsules/main-2.jpg',
+                    )
+                  "
+                >
+                  <img
+                    src="images/products/30mg Ergothioneine Capsules/main-2.jpg"
+                    alt="Thumbnail"
+                  />
+                </div>
+                <div
+                  class="thumbnail"
+                  onclick="
+                    changeImage(
+                      this,
+                      'images/products/30mg Ergothioneine Capsules/main-3.jpg',
+                    )
+                  "
+                >
+                  <img
+                    src="images/products/30mg Ergothioneine Capsules/main-3.jpg"
+                    alt="Thumbnail"
+                  />
+                </div>
+                <div
+                  class="thumbnail"
+                  onclick="
+                    changeImage(
+                      this,
+                      'images/products/30mg Ergothioneine Capsules/main-4.jpg',
+                    )
+                  "
+                >
+                  <img
+                    src="images/products/30mg Ergothioneine Capsules/main-4.jpg"
+                    alt="Thumbnail"
+                  />
+                </div>
+              </div>
             </div>
-        </section>
 
-        <!-- Product Details Images -->
-        <section class="product-full-details">
-            <div class="container" style="max-width: 800px; padding: 0;">
-                <img src="images/products/30mg Ergothioneine Capsules/images/01.jpg" alt="Detail" style="width: 100%; display: block;">
-                <img src="images/products/30mg Ergothioneine Capsules/images/03.jpg" alt="Detail" style="width: 100%; display: block;">
-                <img src="images/products/30mg Ergothioneine Capsules/images/05.jpg" alt="Detail" style="width: 100%; display: block;">
-                <img src="images/products/30mg Ergothioneine Capsules/images/07.jpg" alt="Detail" style="width: 100%; display: block;">
-                <img src="images/products/30mg Ergothioneine Capsules/images/08.jpg" alt="Detail" style="width: 100%; display: block;">
+            <!-- Right: Product Info -->
+            <div class="product-info reveal-up" style="transition-delay: 0.1s">
+              <h1 class="product-detail-title">30mg Ergothioneine Capsules</h1>
+              <p class="product-detail-price">33 NZD</p>
+
+              <div class="product-detail-desc">
+                <p>30mg Ergothioneine Capsules</p>
+                <ul>
+                  <li>High purity astaxanthin</li>
+                  <li>Reduces free radicals</li>
+                  <li>Supports wellbeing and circulation</li>
+                </ul>
+              </div>
+
+              <button class="btn-buy">ADD TO CART</button>
             </div>
-        </section>
-        
-        <!-- Contact Banner -->
-        <section class="contact-banner section">
-            <div class="contact-img"><img src="images/bg-contact.jpg" alt="contact"></div>
-            <div class="container contact-container">
-                <a href="contact.html" class="btn-contact reveal-up">Contact PUPYOO</a>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Details Images -->
+      <section class="product-full-details">
+        <div class="container" style="max-width: 800px; padding: 0">
+          <img
+            src="images/products/30mg Ergothioneine Capsules/images/01.jpg"
+            alt="Detail"
+            style="width: 100%; display: block"
+          />
+          <img
+            src="images/products/30mg Ergothioneine Capsules/images/03.jpg"
+            alt="Detail"
+            style="width: 100%; display: block"
+          />
+          <img
+            src="images/products/30mg Ergothioneine Capsules/images/05.jpg"
+            alt="Detail"
+            style="width: 100%; display: block"
+          />
+          <img
+            src="images/products/30mg Ergothioneine Capsules/images/08.jpg"
+            alt="Detail"
+            style="width: 100%; display: block"
+          />
+        </div>
+      </section>
+
+      <!-- Contact Banner -->
+      <section class="contact-banner section">
+        <div class="contact-img">
+          <img src="images/bg-contact.jpg" alt="contact" />
+        </div>
+        <div class="container contact-container">
+          <a href="contact.html" class="btn-contact reveal-up"
+            >Contact PUPYOO</a
+          >
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-col col-nav reveal-up">
-                <div class="footer-logo">PUPYOO</div>
-                <nav class="footer-links">
-                    <a href="index.html">HOME</a>
-                    <a href="products.html">PUP PRODUCTS</a>
-                    <a href="stores.html">STORE LOCATIONS</a>
-                    <a href="contact.html">CONTACT</a>
-                </nav>
-            </div>
-
-            <div class="footer-col col-about reveal-up" style="transition-delay: 0.1s;">
-                <h4 class="footer-title">ABOUT US</h4>
-                <div class="about-text">
-                    <p class="en">PUPYOO TAKES PROMOTING PUBLIC HEALTH AS ITS MISSION AND ATTACHES GREAT
-                        IMPORTANCE TO DRUG SAFETY AND QUALITY. RELYING ON PRODUCT RESEARCH FORMULAS AND A MATURE
-                        OPERATIONAL SYSTEM, IT INTEGRATES CUTTING-EDGE MODERN TECHNOLOGY WITH SCIENTIFICALLY RIGOROUS
-                        FORMULAS TO CREATE NUTRITIONAL FOOD AND HEALTH PRODUCTS THAT MEET THE NEEDS OF MODERN URBAN
-                        POPULATIONS.</p>
-                </div>
-            </div>
-
-            <div class="footer-col col-contact reveal-up" style="transition-delay: 0.2s;">
-                <h4 class="footer-title">COME SAY HI</h4>
-                <div class="contact-info">
-                    <p class="en">INFO@PUPYOO.CO.NZ</p>
-                    <p class="en">WWW.PUPYOO.CO.NZ</p>
-                </div>
-            </div>
+      <div class="container footer-container">
+        <div class="footer-col col-nav reveal-up">
+          <div class="footer-logo">PUPYOO</div>
+          <nav class="footer-links">
+            <a href="index.html">HOME</a>
+            <a href="products.html">PUP PRODUCTS</a>
+            <a href="stores.html">STORE LOCATIONS</a>
+            <a href="contact.html">CONTACT</a>
+          </nav>
         </div>
+
+        <div
+          class="footer-col col-about reveal-up"
+          style="transition-delay: 0.1s"
+        >
+          <h4 class="footer-title">ABOUT US</h4>
+          <div class="about-text">
+            <p class="en">
+              PUPYOO TAKES PROMOTING PUBLIC HEALTH AS ITS MISSION AND ATTACHES
+              GREAT IMPORTANCE TO DRUG SAFETY AND QUALITY. RELYING ON PRODUCT
+              RESEARCH FORMULAS AND A MATURE OPERATIONAL SYSTEM, IT INTEGRATES
+              CUTTING-EDGE MODERN TECHNOLOGY WITH SCIENTIFICALLY RIGOROUS
+              FORMULAS TO CREATE NUTRITIONAL FOOD AND HEALTH PRODUCTS THAT MEET
+              THE NEEDS OF MODERN URBAN POPULATIONS.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="footer-col col-contact reveal-up"
+          style="transition-delay: 0.2s"
+        >
+          <h4 class="footer-title">COME SAY HI</h4>
+          <div class="contact-info">
+            <p class="en">INFO@PUPYOO.CO.NZ</p>
+            <p class="en">WWW.PUPYOO.CO.NZ</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>
     <script>
-        function changeImage(element, src) {
-            document.getElementById('mainImage').src = src;
-            const thumbnails = document.querySelectorAll('.thumbnail');
-            thumbnails.forEach(thumb => thumb.classList.remove('active'));
-            element.classList.add('active');
-        }
+      function changeImage(element, src) {
+        document.getElementById('mainImage').src = src
+        const thumbnails = document.querySelectorAll('.thumbnail')
+        thumbnails.forEach((thumb) => thumb.classList.remove('active'))
+        element.classList.add('active')
+      }
     </script>
-</body>
-
+  </body>
 </html>
